@@ -1,4 +1,4 @@
-import cv2
+import cv2         #respuesta 3 taller 4
 import numpy as np
 
 def generar_imagen_con_ruido_sal_pimienta(alto=300, ancho=300, cantidad_ruido=0.05):
