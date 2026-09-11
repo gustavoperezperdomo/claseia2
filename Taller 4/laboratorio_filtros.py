@@ -10,7 +10,7 @@ def generar_imagen_con_ruido_sal_pimienta(alto=300, ancho=300, cantidad_ruido=0.
     cv2.rectangle(imagen, (50, 50), (250, 250), 180, -1)
     cv2.circle(imagen, (150, 150), 50, 255, -1)
     
-    # 2. Agregar Ruido de Sal y Pimienta
+    # 2. Agregar Ruido de Sal y Pimientacd
     imagen_ruidosa = imagen.copy()
     num_ruido = int(cantidad_ruido * alto * ancho)
     
